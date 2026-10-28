@@ -1,0 +1,7 @@
+work/
+work_isbi/
+data/
+models/
+third_party/
+__pycache__/
+*.pyc
