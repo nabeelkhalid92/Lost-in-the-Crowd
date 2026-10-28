@@ -14,8 +14,8 @@ advice. Items marked *not found* had no licence statement anywhere checked.
 | Our nuclear-count predictions | **Yes, as CC BY-NC 4.0** | Same terms as LIVECell. |
 | Our CTC predictions | **Only with CTC permission** | CTC terms: "Any public non-CTC-related, scientific use of our datasets requires explicit permission from the challenge organizers." |
 | Our ISBI 2014 predictions | **Ask first** | No licence was found. Email the organizers (Lu, Carneiro). |
-| ISBI fine-tuned Cellpose-SAM | **Probably yes, after ISBI permission** | BSD-3-Clause (the `cpsam` model card), plus the Apache-2.0 notice for SAM. Add "trained on CC BY-NC data, for non-commercial research": the Cellpose README says all Cellpose models are trained on CC BY-NC data. |
-| ISBI fine-tuned Mask R-CNN | **Yes, but only as CC BY-SA 3.0, after ISBI permission** | Started from Detectron2 model-zoo COCO weights, which are CC BY-SA 3.0 (share-alike). It cannot be relicensed as MIT, Apache or NC. |
+| ISBI fine-tuned Cellpose-SAM | **Released (v1.0)** | BSD-3-Clause (the `cpsam` model card), plus the Apache-2.0 notice for SAM. Add "trained on CC BY-NC data, for non-commercial research": the Cellpose README says all Cellpose models are trained on CC BY-NC data. |
+| ISBI fine-tuned Mask R-CNN | **Released (v1.0) as CC BY-SA 3.0** | Started from Detectron2 model-zoo COCO weights, which are CC BY-SA 3.0 (share-alike). It cannot be relicensed as MIT, Apache or NC. |
 
 ## Licences of third-party components
 
@@ -41,7 +41,8 @@ advice. Items marked *not found* had no licence statement anywhere checked.
 
 1. **CTC permission.** The CTC terms require explicit permission for public scientific use outside the challenge. That
    covers releasing CTC predictions and possibly the CTC results in the paper itself. Email the organizers.
-2. **ISBI 2014 permission.** Needed to publish predictions and the two fine-tuned models. Email Lu and Carneiro.
+2. **ISBI 2014.** The data have no explicit licence; the two fine-tuned models are released with attribution. Ask Lu and
+   Carneiro before publishing ISBI predictions.
 3. **Release files.**
    - Model files: the BSD-3 and Apache notices for the fine-tuned Cellpose-SAM, and the CC BY-SA 3.0 text for the fine-tuned Mask R-CNN.
    - Prediction archive: CC BY-NC 4.0, attributing LIVECell.

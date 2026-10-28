@@ -55,6 +55,20 @@ export CENTERMASK2=/path/to/centermask2
 | micro-SAM `vit_b_lm` | downloaded automatically by micro-SAM |
 | VISTA-2D | MONAI model zoo, bundle `vista2d` |
 
+## Trained weights
+
+The two models fine-tuned on ISBI 2014 (Table 7, Fig. 8). Each zip contains the weights, a model card with
+results and usage, and its licence.
+
+| Model | Download | Size | Licence |
+|---|---|---|---|
+| Cellpose-SAM, fine-tuned on ISBI 2014 | [cellpose-sam-isbi2014.zip](https://github.com/nabeelkhalid92/Lost-in-the-Crowd/releases/download/v1.0/cellpose-sam-isbi2014.zip) | 1.1 GB | BSD 3-Clause (from Cellpose-SAM; SAM part Apache 2.0) |
+| Mask R-CNN R50-FPN, fine-tuned on ISBI 2014 | [maskrcnn-r50fpn-isbi2014.zip](https://github.com/nabeelkhalid92/Lost-in-the-Crowd/releases/download/v1.0/maskrcnn-r50fpn-isbi2014.zip) | 164 MB | CC BY-SA 3.0 (from the Detectron2 model zoo) |
+
+SHA-256: `cellpose-sam-isbi2014.zip` 11ea0e47673e94f3d59393df99f0c50485fe1406f5362eefda78c73fabcece3b,
+`maskrcnn-r50fpn-isbi2014.zip` 7fc89d9dac5285212ceca3210b0cf36ac5243c812a25953629cd7dc0554b9f80.
+The nine benchmarked models are not redistributed; they come from their original sources (above).
+
 ## Pipeline
 
 1. **Inference.**
